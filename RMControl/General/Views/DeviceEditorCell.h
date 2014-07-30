@@ -10,7 +10,9 @@
 
 @interface DeviceEditorCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *keyLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *imgView;
-@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *deviceIconButton;
+
+@property (weak, nonatomic) IBOutlet UITextField *valueTextField;
 
 @end

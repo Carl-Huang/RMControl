@@ -62,18 +62,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    ControlMainCenterViewController *controlMainCenter;
-    if ([[UIScreen mainScreen] bounds].size.height < 490) {
-       controlMainCenter = [[ControlMainCenterViewController alloc] initWithNibName:@"ControlMainCenter_4s" bundle:[NSBundle mainBundle]];
-    }
-    else
-    {
-         controlMainCenter = [[ControlMainCenterViewController alloc] initWithNibName:@"ControlMainCenterViewController" bundle:[NSBundle mainBundle]];
-    }
-    [self.navigationController pushViewController:controlMainCenter animated:YES];
+//    ControlMainCenterViewController *controlMainCenter;
+//    if ([[UIScreen mainScreen] bounds].size.height < 490) {
+//       controlMainCenter = [[ControlMainCenterViewController alloc] initWithNibName:@"ControlMainCenter_4s" bundle:[NSBundle mainBundle]];
+//    }
+//    else
+//    {
+//         controlMainCenter = [[ControlMainCenterViewController alloc] initWithNibName:@"ControlMainCenterViewController" bundle:[NSBundle mainBundle]];
+//    }
+//    [self.navigationController pushViewController:controlMainCenter animated:YES];
     
-//    ControlCenterViewController *controlCenterVC = [[ControlCenterViewController alloc] init];
-//    [self.navigationController pushViewController:controlCenterVC animated:YES];
+    ControlCenterViewController *controlCenterVC = [[ControlCenterViewController alloc] init];
+    [self.navigationController pushViewController:controlCenterVC animated:YES];
     
 }
 - (IBAction)reloadTheData:(id)sender

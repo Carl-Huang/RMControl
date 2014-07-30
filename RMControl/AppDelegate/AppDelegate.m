@@ -73,7 +73,7 @@
 #pragma mark - Private Methods
 - (void)customUI
 {
-    [[UINavigationBar appearance] setTintColor:[UIColor clearColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
     if ([OSHelper iOS7]) {
          [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"biaoti"] forBarMetrics:UIBarMetricsDefault];

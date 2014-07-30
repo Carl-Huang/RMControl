@@ -8,7 +8,7 @@
 
 #import "CommonViewController.h"
 
-@interface DeviceEditorViewController : CommonViewController<UITableViewDataSource,UITableViewDelegate>
+@interface DeviceEditorViewController : CommonViewController<UITableViewDataSource,UITableViewDelegate,UIActionSheetDelegate,UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *table;
 - (IBAction)resetEvent:(id)sender;
 
