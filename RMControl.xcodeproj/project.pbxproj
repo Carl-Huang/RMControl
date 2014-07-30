@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741FC54692744F0AAA6F853A /* libPods-RMControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA985CC3A474A64976E2480 /* libPods-RMControl.a */; };
 		C39A866F1987F89C000FB780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39A866E1987F89C000FB780 /* Foundation.framework */; };
 		C39A86711987F89C000FB780 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39A86701987F89C000FB780 /* CoreGraphics.framework */; };
 		C39A86731987F89C000FB780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39A86721987F89C000FB780 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		C39A86AA1987F9CE000FB780 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39A86A91987F9CE000FB780 /* CoreBluetooth.framework */; };
 		C39A86DF1987FABF000FB780 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86AC1987FABF000FB780 /* bg@2x.png */; };
 		C39A86E01987FABF000FB780 /* biaoti@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86AD1987FABF000FB780 /* biaoti@2x.png */; };
-		C39A86E11987FABF000FB780 /* jiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86AE1987FABF000FB780 /* jiantou@2x.png */; };
 		C39A86E21987FABF000FB780 /* shouye-xiaotu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86AF1987FABF000FB780 /* shouye-xiaotu@2x.png */; };
 		C39A86E31987FABF000FB780 /* xixian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86B01987FABF000FB780 /* xixian@2x.png */; };
 		C39A86E41987FABF000FB780 /* xuanzhong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86B11987FABF000FB780 /* xuanzhong@2x.png */; };
@@ -38,7 +38,6 @@
 		C39A86EF1987FABF000FB780 /* ren-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86BD1987FABF000FB780 /* ren-7@2x.png */; };
 		C39A86F01987FABF000FB780 /* ren-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86BE1987FABF000FB780 /* ren-8@2x.png */; };
 		C39A86F11987FABF000FB780 /* ren-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86BF1987FABF000FB780 /* ren-9@2x.png */; };
-		C39A86F21987FABF000FB780 /* set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86C01987FABF000FB780 /* set@2x.png */; };
 		C39A86F31987FABF000FB780 /* constant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86C21987FABF000FB780 /* constant@2x.png */; };
 		C39A86F41987FABF000FB780 /* fangge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86C31987FABF000FB780 /* fangge@2x.png */; };
 		C39A86F51987FABF000FB780 /* jia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39A86C41987FABF000FB780 /* jia@2x.png */; };
@@ -82,6 +81,34 @@
 		C39A873F1987FB3A000FB780 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39A873D1987FB3A000FB780 /* MainViewController.m */; };
 		C39A87401987FB3A000FB780 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39A873E1987FB3A000FB780 /* MainViewController.xib */; };
 		C39A87431987FB70000FB780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C39A87421987FB70000FB780 /* AppDelegate.m */; };
+		F49B052B1988833A00086531 /* SelectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B05291988833A00086531 /* SelectDeviceViewController.m */; };
+		F49B052C1988833A00086531 /* SelectDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B052A1988833A00086531 /* SelectDeviceViewController.xib */; };
+		F49B054F19888C8E00086531 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B054E19888C8E00086531 /* BaseModel.m */; };
+		F49B056419888CF800086531 /* UIView+CutLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B055419888CF800086531 /* UIView+CutLayer.m */; };
+		F49B056519888CF800086531 /* UIViewController+BarItemAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B055619888CF800086531 /* UIViewController+BarItemAdapt.m */; };
+		F49B056619888CF800086531 /* ControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B055919888CF800086531 /* ControlCenter.m */; };
+		F49B056719888CF800086531 /* AFHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B055D19888CF800086531 /* AFHttp.m */; };
+		F49B056819888CF800086531 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B055F19888CF800086531 /* HttpService.m */; };
+		F49B056919888CF800086531 /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B056219888CF800086531 /* DeviceCell.m */; };
+		F49B056A19888CF800086531 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B056319888CF800086531 /* DeviceCell.xib */; };
+		F49B056C1988921700086531 /* dev_jiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49B056B1988921700086531 /* dev_jiantou@2x.png */; };
+		F49B0570198893D800086531 /* ControlCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B056E198893D800086531 /* ControlCenterViewController.m */; };
+		F49B0571198893D800086531 /* ControlCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B056F198893D800086531 /* ControlCenterViewController.xib */; };
+		F49B057519889F4E00086531 /* control_set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49B057419889F4E00086531 /* control_set@2x.png */; };
+		F49B05791988A17C00086531 /* SetUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B05771988A17C00086531 /* SetUpCell.m */; };
+		F49B057A1988A17C00086531 /* SetUpCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B05781988A17C00086531 /* SetUpCell.xib */; };
+		F49B057E1988A2E100086531 /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B057C1988A2E100086531 /* SetUpViewController.m */; };
+		F49B057F1988A2E100086531 /* SetUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B057D1988A2E100086531 /* SetUpViewController.xib */; };
+		F49B05811988A7B100086531 /* biaoti88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F49B05801988A7B100086531 /* biaoti88@2x.png */; };
+		F49B05851988A9DB00086531 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B05831988A9DB00086531 /* AboutViewController.m */; };
+		F49B05861988A9DB00086531 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B05841988A9DB00086531 /* AboutViewController.xib */; };
+		F49B058A1988AD1500086531 /* DeviceEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B05881988AD1500086531 /* DeviceEditorViewController.m */; };
+		F49B058B1988AD1500086531 /* DeviceEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B05891988AD1500086531 /* DeviceEditorViewController.xib */; };
+		F49B058F1988B73800086531 /* DeviceEditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B058D1988B73800086531 /* DeviceEditorCell.m */; };
+		F49B05901988B73800086531 /* DeviceEditorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B058E1988B73800086531 /* DeviceEditorCell.xib */; };
+		F49B05941988BBB900086531 /* ControlMainCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49B05921988BBB900086531 /* ControlMainCenterViewController.m */; };
+		F49B05951988BBB900086531 /* ControlMainCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B05931988BBB900086531 /* ControlMainCenterViewController.xib */; };
+		F49B05971988C3CE00086531 /* ControlMainCenter_4s.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49B05961988C3CE00086531 /* ControlMainCenter_4s.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +122,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		799F88ADA9E542ADAF7BDF2F /* Pods-RMControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RMControl.xcconfig"; path = "Pods/Pods-RMControl.xcconfig"; sourceTree = "<group>"; };
+		BEA985CC3A474A64976E2480 /* libPods-RMControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RMControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A866B1987F89C000FB780 /* RMControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A866E1987F89C000FB780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C39A86701987F89C000FB780 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,7 +141,6 @@
 		C39A86A91987F9CE000FB780 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		C39A86AC1987FABF000FB780 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		C39A86AD1987FABF000FB780 /* biaoti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biaoti@2x.png"; sourceTree = "<group>"; };
-		C39A86AE1987FABF000FB780 /* jiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@2x.png"; sourceTree = "<group>"; };
 		C39A86AF1987FABF000FB780 /* shouye-xiaotu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shouye-xiaotu@2x.png"; sourceTree = "<group>"; };
 		C39A86B01987FABF000FB780 /* xixian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xixian@2x.png"; sourceTree = "<group>"; };
 		C39A86B11987FABF000FB780 /* xuanzhong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xuanzhong@2x.png"; sourceTree = "<group>"; };
@@ -129,7 +157,6 @@
 		C39A86BD1987FABF000FB780 /* ren-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ren-7@2x.png"; sourceTree = "<group>"; };
 		C39A86BE1987FABF000FB780 /* ren-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ren-8@2x.png"; sourceTree = "<group>"; };
 		C39A86BF1987FABF000FB780 /* ren-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ren-9@2x.png"; sourceTree = "<group>"; };
-		C39A86C01987FABF000FB780 /* set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@2x.png"; sourceTree = "<group>"; };
 		C39A86C21987FABF000FB780 /* constant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "constant@2x.png"; sourceTree = "<group>"; };
 		C39A86C31987FABF000FB780 /* fangge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fangge@2x.png"; sourceTree = "<group>"; };
 		C39A86C41987FABF000FB780 /* jia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jia@2x.png"; sourceTree = "<group>"; };
@@ -193,6 +220,50 @@
 		C39A87411987FB70000FB780 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C39A87421987FB70000FB780 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C39A87441987FB9A000FB780 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		F49B05281988833A00086531 /* SelectDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDeviceViewController.h; sourceTree = "<group>"; };
+		F49B05291988833A00086531 /* SelectDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDeviceViewController.m; sourceTree = "<group>"; };
+		F49B052A1988833A00086531 /* SelectDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDeviceViewController.xib; sourceTree = "<group>"; };
+		F49B054C19888C8E00086531 /* AllModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllModels.h; sourceTree = "<group>"; };
+		F49B054D19888C8E00086531 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		F49B054E19888C8E00086531 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		F49B055319888CF800086531 /* UIView+CutLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CutLayer.h"; sourceTree = "<group>"; };
+		F49B055419888CF800086531 /* UIView+CutLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CutLayer.m"; sourceTree = "<group>"; };
+		F49B055519888CF800086531 /* UIViewController+BarItemAdapt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarItemAdapt.h"; sourceTree = "<group>"; };
+		F49B055619888CF800086531 /* UIViewController+BarItemAdapt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarItemAdapt.m"; sourceTree = "<group>"; };
+		F49B055819888CF800086531 /* ControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlCenter.h; sourceTree = "<group>"; };
+		F49B055919888CF800086531 /* ControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlCenter.m; sourceTree = "<group>"; };
+		F49B055C19888CF800086531 /* AFHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHttp.h; sourceTree = "<group>"; };
+		F49B055D19888CF800086531 /* AFHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHttp.m; sourceTree = "<group>"; };
+		F49B055E19888CF800086531 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
+		F49B055F19888CF800086531 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		F49B056119888CF800086531 /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		F49B056219888CF800086531 /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		F49B056319888CF800086531 /* DeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		F49B056B1988921700086531 /* dev_jiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dev_jiantou@2x.png"; sourceTree = "<group>"; };
+		F49B056D198893D800086531 /* ControlCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlCenterViewController.h; sourceTree = "<group>"; };
+		F49B056E198893D800086531 /* ControlCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlCenterViewController.m; sourceTree = "<group>"; };
+		F49B056F198893D800086531 /* ControlCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlCenterViewController.xib; sourceTree = "<group>"; };
+		F49B057419889F4E00086531 /* control_set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "control_set@2x.png"; sourceTree = "<group>"; };
+		F49B05761988A17C00086531 /* SetUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpCell.h; sourceTree = "<group>"; };
+		F49B05771988A17C00086531 /* SetUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpCell.m; sourceTree = "<group>"; };
+		F49B05781988A17C00086531 /* SetUpCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetUpCell.xib; sourceTree = "<group>"; };
+		F49B057B1988A2E100086531 /* SetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewController.h; sourceTree = "<group>"; };
+		F49B057C1988A2E100086531 /* SetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewController.m; sourceTree = "<group>"; };
+		F49B057D1988A2E100086531 /* SetUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetUpViewController.xib; sourceTree = "<group>"; };
+		F49B05801988A7B100086531 /* biaoti88@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biaoti88@2x.png"; sourceTree = "<group>"; };
+		F49B05821988A9DB00086531 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		F49B05831988A9DB00086531 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		F49B05841988A9DB00086531 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		F49B05871988AD1500086531 /* DeviceEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceEditorViewController.h; sourceTree = "<group>"; };
+		F49B05881988AD1500086531 /* DeviceEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceEditorViewController.m; sourceTree = "<group>"; };
+		F49B05891988AD1500086531 /* DeviceEditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceEditorViewController.xib; sourceTree = "<group>"; };
+		F49B058C1988B73800086531 /* DeviceEditorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceEditorCell.h; sourceTree = "<group>"; };
+		F49B058D1988B73800086531 /* DeviceEditorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceEditorCell.m; sourceTree = "<group>"; };
+		F49B058E1988B73800086531 /* DeviceEditorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceEditorCell.xib; sourceTree = "<group>"; };
+		F49B05911988BBB900086531 /* ControlMainCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlMainCenterViewController.h; sourceTree = "<group>"; };
+		F49B05921988BBB900086531 /* ControlMainCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlMainCenterViewController.m; sourceTree = "<group>"; };
+		F49B05931988BBB900086531 /* ControlMainCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlMainCenterViewController.xib; sourceTree = "<group>"; };
+		F49B05961988C3CE00086531 /* ControlMainCenter_4s.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlMainCenter_4s.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +275,7 @@
 				C39A86711987F89C000FB780 /* CoreGraphics.framework in Frameworks */,
 				C39A86731987F89C000FB780 /* UIKit.framework in Frameworks */,
 				C39A866F1987F89C000FB780 /* Foundation.framework in Frameworks */,
+				741FC54692744F0AAA6F853A /* libPods-RMControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +299,7 @@
 				C39A868D1987F89C000FB780 /* RMControlTests */,
 				C39A866D1987F89C000FB780 /* Frameworks */,
 				C39A866C1987F89C000FB780 /* Products */,
+				799F88ADA9E542ADAF7BDF2F /* Pods-RMControl.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +320,7 @@
 				C39A86701987F89C000FB780 /* CoreGraphics.framework */,
 				C39A86721987F89C000FB780 /* UIKit.framework */,
 				C39A86871987F89C000FB780 /* XCTest.framework */,
+				BEA985CC3A474A64976E2480 /* libPods-RMControl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -254,9 +328,9 @@
 		C39A86741987F89C000FB780 /* RMControl */ = {
 			isa = PBXGroup;
 			children = (
-				C39A86A81987F973000FB780 /* Models */,
+				F49B055019888CF800086531 /* General */,
+				F49B054B19888C8E00086531 /* Models */,
 				C39A86A21987F8D4000FB780 /* Resources */,
-				C39A86A11987F8CD000FB780 /* General */,
 				C39A86A01987F8C5000FB780 /* Macros */,
 				C39A869F1987F8BE000FB780 /* AppDelegate */,
 				C39A869E1987F8B4000FB780 /* Vendors */,
@@ -302,6 +376,25 @@
 				C39A873C1987FB3A000FB780 /* MainViewController.h */,
 				C39A873D1987FB3A000FB780 /* MainViewController.m */,
 				C39A873E1987FB3A000FB780 /* MainViewController.xib */,
+				F49B05281988833A00086531 /* SelectDeviceViewController.h */,
+				F49B05291988833A00086531 /* SelectDeviceViewController.m */,
+				F49B052A1988833A00086531 /* SelectDeviceViewController.xib */,
+				F49B056D198893D800086531 /* ControlCenterViewController.h */,
+				F49B056E198893D800086531 /* ControlCenterViewController.m */,
+				F49B056F198893D800086531 /* ControlCenterViewController.xib */,
+				F49B05911988BBB900086531 /* ControlMainCenterViewController.h */,
+				F49B05921988BBB900086531 /* ControlMainCenterViewController.m */,
+				F49B05961988C3CE00086531 /* ControlMainCenter_4s.xib */,
+				F49B05931988BBB900086531 /* ControlMainCenterViewController.xib */,
+				F49B057B1988A2E100086531 /* SetUpViewController.h */,
+				F49B057C1988A2E100086531 /* SetUpViewController.m */,
+				F49B057D1988A2E100086531 /* SetUpViewController.xib */,
+				F49B05821988A9DB00086531 /* AboutViewController.h */,
+				F49B05831988A9DB00086531 /* AboutViewController.m */,
+				F49B05841988A9DB00086531 /* AboutViewController.xib */,
+				F49B05871988AD1500086531 /* DeviceEditorViewController.h */,
+				F49B05881988AD1500086531 /* DeviceEditorViewController.m */,
+				F49B05891988AD1500086531 /* DeviceEditorViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -331,51 +424,12 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		C39A86A11987F8CD000FB780 /* General */ = {
-			isa = PBXGroup;
-			children = (
-				C39A86A61987F903000FB780 /* BLE */,
-				C39A86A51987F8F9000FB780 /* Helper */,
-				C39A86A41987F8EC000FB780 /* Views */,
-				C39A86A31987F8E3000FB780 /* Global */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
 		C39A86A21987F8D4000FB780 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				C39A86A71987F960000FB780 /* images */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		C39A86A31987F8E3000FB780 /* Global */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Global;
-			sourceTree = "<group>";
-		};
-		C39A86A41987F8EC000FB780 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		C39A86A51987F8F9000FB780 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		C39A86A61987F903000FB780 /* BLE */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BLE;
 			sourceTree = "<group>";
 		};
 		C39A86A71987F960000FB780 /* images */ = {
@@ -391,19 +445,13 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		C39A86A81987F973000FB780 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		C39A86AB1987FABF000FB780 /* 1 */ = {
 			isa = PBXGroup;
 			children = (
+				F49B05801988A7B100086531 /* biaoti88@2x.png */,
+				F49B056B1988921700086531 /* dev_jiantou@2x.png */,
 				C39A86AC1987FABF000FB780 /* bg@2x.png */,
 				C39A86AD1987FABF000FB780 /* biaoti@2x.png */,
-				C39A86AE1987FABF000FB780 /* jiantou@2x.png */,
 				C39A86AF1987FABF000FB780 /* shouye-xiaotu@2x.png */,
 				C39A86B01987FABF000FB780 /* xixian@2x.png */,
 				C39A86B11987FABF000FB780 /* xuanzhong@2x.png */,
@@ -414,6 +462,7 @@
 		C39A86B21987FABF000FB780 /* 2 */ = {
 			isa = PBXGroup;
 			children = (
+				F49B057419889F4E00086531 /* control_set@2x.png */,
 				C39A86B31987FABF000FB780 /* fanhui@2x.png */,
 				C39A86B41987FABF000FB780 /* ren-10@2x.png */,
 				C39A86B51987FABF000FB780 /* ren-11@2x.png */,
@@ -427,7 +476,6 @@
 				C39A86BD1987FABF000FB780 /* ren-7@2x.png */,
 				C39A86BE1987FABF000FB780 /* ren-8@2x.png */,
 				C39A86BF1987FABF000FB780 /* ren-9@2x.png */,
-				C39A86C01987FABF000FB780 /* set@2x.png */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -532,6 +580,90 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		F49B054B19888C8E00086531 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F49B054C19888C8E00086531 /* AllModels.h */,
+				F49B054D19888C8E00086531 /* BaseModel.h */,
+				F49B054E19888C8E00086531 /* BaseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F49B055019888CF800086531 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F49B055119888CF800086531 /* BLE */,
+				F49B055219888CF800086531 /* Category */,
+				F49B055719888CF800086531 /* Global */,
+				F49B055A19888CF800086531 /* Helper */,
+				F49B055B19888CF800086531 /* Http */,
+				F49B056019888CF800086531 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		F49B055119888CF800086531 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		F49B055219888CF800086531 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F49B055319888CF800086531 /* UIView+CutLayer.h */,
+				F49B055419888CF800086531 /* UIView+CutLayer.m */,
+				F49B055519888CF800086531 /* UIViewController+BarItemAdapt.h */,
+				F49B055619888CF800086531 /* UIViewController+BarItemAdapt.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F49B055719888CF800086531 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F49B055819888CF800086531 /* ControlCenter.h */,
+				F49B055919888CF800086531 /* ControlCenter.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		F49B055A19888CF800086531 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F49B055B19888CF800086531 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				F49B055C19888CF800086531 /* AFHttp.h */,
+				F49B055D19888CF800086531 /* AFHttp.m */,
+				F49B055E19888CF800086531 /* HttpService.h */,
+				F49B055F19888CF800086531 /* HttpService.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		F49B056019888CF800086531 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F49B056119888CF800086531 /* DeviceCell.h */,
+				F49B056219888CF800086531 /* DeviceCell.m */,
+				F49B056319888CF800086531 /* DeviceCell.xib */,
+				F49B05761988A17C00086531 /* SetUpCell.h */,
+				F49B05771988A17C00086531 /* SetUpCell.m */,
+				F49B05781988A17C00086531 /* SetUpCell.xib */,
+				F49B058C1988B73800086531 /* DeviceEditorCell.h */,
+				F49B058D1988B73800086531 /* DeviceEditorCell.m */,
+				F49B058E1988B73800086531 /* DeviceEditorCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -539,9 +671,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C39A86971987F89C000FB780 /* Build configuration list for PBXNativeTarget "RMControl" */;
 			buildPhases = (
+				B4E08460C97145ECAC9AA6E1 /* Check Pods Manifest.lock */,
 				C39A86671987F89C000FB780 /* Sources */,
 				C39A86681987F89C000FB780 /* Frameworks */,
 				C39A86691987F89C000FB780 /* Resources */,
+				2B1FB58EE4E1476C9B81C9D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -615,11 +749,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39A87031987FABF000FB780 /* set@2x.png in Resources */,
+				F49B0571198893D800086531 /* ControlCenterViewController.xib in Resources */,
 				C39A86FD1987FABF000FB780 /* ren1@2x.png in Resources */,
 				C39A86FE1987FABF000FB780 /* ren2@2x.png in Resources */,
 				C39A87091987FABF000FB780 /* xiuli@2x.png in Resources */,
-				C39A86E11987FABF000FB780 /* jiantou@2x.png in Resources */,
 				C39A86FF1987FABF000FB780 /* ren3@2x.png in Resources */,
+				F49B05971988C3CE00086531 /* ControlMainCenter_4s.xib in Resources */,
 				C39A86E61987FABF000FB780 /* ren-10@2x.png in Resources */,
 				C39A86DF1987FABF000FB780 /* bg@2x.png in Resources */,
 				C39A86EF1987FABF000FB780 /* ren-7@2x.png in Resources */,
@@ -635,7 +770,10 @@
 				C39A86EB1987FABF000FB780 /* ren-3@2x.png in Resources */,
 				C39A87401987FB3A000FB780 /* MainViewController.xib in Resources */,
 				C39A86F01987FABF000FB780 /* ren-8@2x.png in Resources */,
+				F49B05811988A7B100086531 /* biaoti88@2x.png in Resources */,
+				F49B05901988B73800086531 /* DeviceEditorCell.xib in Resources */,
 				C39A870C1987FABF000FB780 /* word@2x.png in Resources */,
+				F49B057F1988A2E100086531 /* SetUpViewController.xib in Resources */,
 				C39A86ED1987FABF000FB780 /* ren-5@2x.png in Resources */,
 				C39A86791987F89C000FB780 /* InfoPlist.strings in Resources */,
 				C39A86F41987FABF000FB780 /* fangge@2x.png in Resources */,
@@ -652,17 +790,24 @@
 				C39A87061987FABF000FB780 /* about@2x.png in Resources */,
 				C39A86F51987FABF000FB780 /* jia@2x.png in Resources */,
 				C39A86E41987FABF000FB780 /* xuanzhong@2x.png in Resources */,
+				F49B056A19888CF800086531 /* DeviceCell.xib in Resources */,
+				F49B058B1988AD1500086531 /* DeviceEditorViewController.xib in Resources */,
 				C39A86E81987FABF000FB780 /* ren-12@2x.png in Resources */,
 				C39A86F31987FABF000FB780 /* constant@2x.png in Resources */,
 				C39A86E91987FABF000FB780 /* ren-1@2x.png in Resources */,
 				C39A86EC1987FABF000FB780 /* ren-4@2x.png in Resources */,
+				F49B057519889F4E00086531 /* control_set@2x.png in Resources */,
 				C39A87011987FABF000FB780 /* ren5@2x.png in Resources */,
 				C39A86F91987FABF000FB780 /* pos1@2x.png in Resources */,
 				C39A86F71987FABF000FB780 /* jiantou2@2x.png in Resources */,
 				C39A870B1987FABF000FB780 /* bg-small@2x.png in Resources */,
+				F49B05861988A9DB00086531 /* AboutViewController.xib in Resources */,
 				C39A87071987FABF000FB780 /* anxia2@2x.png in Resources */,
+				F49B052C1988833A00086531 /* SelectDeviceViewController.xib in Resources */,
+				F49B057A1988A17C00086531 /* SetUpCell.xib in Resources */,
+				F49B05951988BBB900086531 /* ControlMainCenterViewController.xib in Resources */,
 				C39A86F11987FABF000FB780 /* ren-9@2x.png in Resources */,
-				C39A86F21987FABF000FB780 /* set@2x.png in Resources */,
+				F49B056C1988921700086531 /* dev_jiantou@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +821,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B1FB58EE4E1476C9B81C9D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RMControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E08460C97145ECAC9AA6E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C39A86671987F89C000FB780 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -685,18 +863,33 @@
 				C39A87331987FB01000FB780 /* NSDate+Utils.m in Sources */,
 				C39A87351987FB01000FB780 /* NSString+MD5_32.m in Sources */,
 				C39A873F1987FB3A000FB780 /* MainViewController.m in Sources */,
+				F49B056919888CF800086531 /* DeviceCell.m in Sources */,
+				F49B05791988A17C00086531 /* SetUpCell.m in Sources */,
+				F49B05941988BBB900086531 /* ControlMainCenterViewController.m in Sources */,
+				F49B0570198893D800086531 /* ControlCenterViewController.m in Sources */,
 				C39A873A1987FB01000FB780 /* UIViewController+BarItem.m in Sources */,
+				F49B058F1988B73800086531 /* DeviceEditorCell.m in Sources */,
 				C39A87301987FB01000FB780 /* CommonViewController.m in Sources */,
+				F49B056619888CF800086531 /* ControlCenter.m in Sources */,
+				F49B05851988A9DB00086531 /* AboutViewController.m in Sources */,
 				C39A872F1987FB01000FB780 /* UITextView+Placeholder.m in Sources */,
 				C39A87341987FB01000FB780 /* NSString+IP.m in Sources */,
+				F49B057E1988A2E100086531 /* SetUpViewController.m in Sources */,
 				C39A87321987FB01000FB780 /* IO.m in Sources */,
+				F49B056419888CF800086531 /* UIView+CutLayer.m in Sources */,
+				F49B056719888CF800086531 /* AFHttp.m in Sources */,
 				C39A87391987FB01000FB780 /* UIImage+Util.m in Sources */,
+				F49B056519888CF800086531 /* UIViewController+BarItemAdapt.m in Sources */,
+				F49B058A1988AD1500086531 /* DeviceEditorViewController.m in Sources */,
+				F49B052B1988833A00086531 /* SelectDeviceViewController.m in Sources */,
 				C39A87381987FB01000FB780 /* UIColor+Utils.m in Sources */,
 				C39A87361987FB01000FB780 /* NSString+Utils.m in Sources */,
+				F49B056819888CF800086531 /* HttpService.m in Sources */,
 				C39A87311987FB01000FB780 /* HWConnect.m in Sources */,
 				C39A873B1987FB01000FB780 /* VersionManager.m in Sources */,
 				C39A87431987FB70000FB780 /* AppDelegate.m in Sources */,
 				C39A87371987FB01000FB780 /* OSHelper.m in Sources */,
+				F49B054F19888C8E00086531 /* BaseModel.m in Sources */,
 				C39A872E1987FB01000FB780 /* UITableView+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,6 +1004,7 @@
 		};
 		C39A86981987F89C000FB780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799F88ADA9E542ADAF7BDF2F /* Pods-RMControl.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -825,6 +1019,7 @@
 		};
 		C39A86991987F89C000FB780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799F88ADA9E542ADAF7BDF2F /* Pods-RMControl.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

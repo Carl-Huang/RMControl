@@ -1,21 +1,22 @@
 //
 //  AppDelegate.m
-//  RMControl
+//  ShaiWaWa
 //
-//  Created by Carl on 14-7-29.
+//  Created by Carl on 14-7-4.
 //  Copyright (c) 2014年 helloworld. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ControlCenter.h"
+#import "HttpService.h"
 @implementation AppDelegate
 
+
+@synthesize postValidateType= _postValidateType;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [ControlCenter makeKeyAndVisible];
+    [self customUI];
     return YES;
 }
 
@@ -27,7 +28,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
@@ -43,7 +44,52 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Saves changes in the application's managed object context before the application terminates.
+    //[self saveContext];
 }
+
+//- (void)saveContext
+//{
+//    NSError *error = nil;
+//    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+//    if (managedObjectContext != nil) {
+//        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
+//            // Replace this implementation with code to handle the error appropriately.
+//            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+//            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+//            abort();
+//        }
+//    }
+//}
+
+#pragma mark - Application's Documents directory
+
+// Returns the URL to the application's Documents directory.
+- (NSURL *)applicationDocumentsDirectory
+{
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+#pragma mark - Private Methods
+- (void)customUI
+{
+    [[UINavigationBar appearance] setTintColor:[UIColor clearColor]];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
+    if ([OSHelper iOS7]) {
+         [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"biaoti"] forBarMetrics:UIBarMetricsDefault];
+    }
+    else
+    {
+         [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"biaoti88"] forBarMetrics:UIBarMetricsDefault];
+    }
+    [[UINavigationBar appearance] setTitleTextAttributes:@{UITextAttributeTextColor:[UIColor whiteColor]}];
+#ifdef iOS7_SDK
+    if([OSHelper iOS7])
+    {
+        //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"black_顶栏"] forBarMetrics:UIBarMetricsDefault];
+    }
+#endif
+}
+
 
 @end

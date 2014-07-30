@@ -2,7 +2,7 @@
 # platform :ios, "6.0"
 
 target "RMControl" do
-
+pod 'AFNetworking', '~> 2.2.3'
 end
 
 target "RMControlTests" do
